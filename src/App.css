@@ -64,9 +64,95 @@ body {
   color: #656565;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  flex-direction: column;
+}
+
+.header img {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 23px;
+  font-weight: 600;
+  color: #656565;
+}
+
+.hr {
+  color: #656565;
+}
+
+.s-box {
+  padding: 30px 40px;
+}
+
+.grouped {
+  display: flex;
+  margin-top: 10px;
+  gap: 6rem;
+}
+
+.grouped h2 {
+  font-size: 14px;
+}
+
+.grouped p {
+  font-size: 14px;
+}
+
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  color: #656565;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  color: #656565;
+}
+
+.my {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.my button {
+  width: 160px;
+  height: 40px;
+  border: none;
+  color: #656565;
+}
+
+.dont {
+  display: none;
+}
+
 @media screen and (max-width: 1000px) {
      .home input {
       width: 70%;
       padding: 0px 10px;
+     }
+
+     .dont {
+      display: block;
+     }
+
+     .do {
+      display: none;
+     }
+
+     .left {
+      gap: 1rem;
      }
 }

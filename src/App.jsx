@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import HomePage from './homepage'
 import { Routes, Route } from 'react-router-dom'
+import Validated from './validated'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <section>
       <Routes>
         <Route index element={<HomePage />} />
+         <Route path='dadosDocumento' element={<Validated />} />
       </Routes>
     </section>
   )
